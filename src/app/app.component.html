@@ -1,47 +1,5 @@
 <router-outlet></router-outlet>
 <button (click)="gotoReact()">goto react form</button>
-<!-- <app-reactive-form [name]=name (newEvent)="gotNewEvent($event)"></app-reactive-form> -->
 <div>{{htmlSnippet}}
     
 </div>
-<!-- <button (click)="updateCount()">
-    update count
-</button> -->
-
-<!-- <ng-container *ngIf="title">
-    <div *ngFor="let item of items">
-        <p>{{title | newUpperCase}}</p>
-        <input type="text" name="name" [(ngModel)]="name" /> 
-    </div>
-</ng-container> -->
- 
-<!-- <ng-container #notFound>
-    <p>no results found</p>
-</ng-container> -->
-<!-- <div *ngFor="let item of items">
-    <p>{{title | newUpperCase}}</p>
-    <input type="text" name="name" [(ngModel)]="name" /> 
-</div> -->
-
-<!-- <button (click)="getData()">getData</button> -->
-<!-- 
-<form [formGroup]="loginForm" (ngSubmit)="onSubmit()"> 
-    <div>
-        <label>userName</label>
-        <input type="text" formControlName="userName" name="username">
-    </div>
-
-    <div>
-        <label>password</label>
-        <input type="password" formControlName="password" name="password">
-    </div>
-    <p>{{(loginForm.controls.password.touched && loginForm.controls.password.errors?.required) ? 'enter password' : ''}}</p>
-    <button type="button" (click)="login()" [disabled]="loginForm.invalid">login</button>
-</form> 
-
-<div>Current Count: {{ count$ | async }}</div>
-<button (click)="increment()">increment</button>
-<button (click)="decrement()">decrement</button>
-<button (click)="reset()">reset</button> -->
-
-<!-- <button (click)="login()">login</button> -->
