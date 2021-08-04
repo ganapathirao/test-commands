@@ -1,0 +1,7 @@
+Host angular project in github :-
+
+npm install -g angular-cli-ghpages
+
+ng build --prod --base-href "https://ganapathirao.github.io/sabka-bazaar/"
+
+ngh --dir dist/sabka-bazaar
